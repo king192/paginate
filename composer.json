@@ -1,0 +1,19 @@
+{
+    "name": "king192/paginate",
+    "description": "paginate for php",
+    "authors": [
+        {
+            "name": "xhq",
+            "email": "git@yunshare.net"
+        }
+    ],
+    "license": "Apache-2.0",
+    "require": {
+        "king192/paginate": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "king192\\paginate\\": "src/"
+        }
+    }
+}
