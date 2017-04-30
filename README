@@ -1,5 +1,5 @@
 <?php
-$pag = new \king192\pager();
+$pag = new \king192\paginate\pager();
 $pag->AbsolutePage = 3; //当前锁定页
 $pag->PageCount = 20;   //总页数量
 $pag->Prefix="?page=";  //链接前缀
